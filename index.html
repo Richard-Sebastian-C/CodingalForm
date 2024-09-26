@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codingal_Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1><u>Codingal Form</u></h1>
+    <img src="codingal.png" alt="Codingal Logo" class="logo">
+    <form id="loginForm" onsubmit="validate(event)">
+        <fieldset>
+            <div>
+                <label>Email:</label>
+                <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label>Password:</label>
+                <input type="password" id="password">
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="text" id="age" min="12" max="50">
+            </div>
+            <br>
+            <div>
+                <label>School:</label>
+                <input type="text" id="school">
+            </div>
+            <br>
+            <button id="button" type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <div id="message">
+        <script src="app.js"></script>
+    </div>
+</body>
+
+</html>
